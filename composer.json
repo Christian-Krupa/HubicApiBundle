@@ -1,0 +1,30 @@
+{
+    "name": "ckrupa/hubic-api-bundle",
+    "description": "a symfony2 service wrapper which simplifies api calls to hubic.com",
+    "type": "symfony-bundle",
+    "keywords": ["hubic", "oauth","ovh"],
+    "homepage": "https://github.com/Christian-Krupa/HubicApiBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Krupa",
+            "email": "christian@krupa.me"
+        }
+    ],
+    "require": {
+        "symfony/symfony": ">=2.6",
+        "sensio/buzz-bundle": "~1.0",
+        "hwi/oauth-bundle": "0.4.*@dev"
+    },
+    "target-dir": "Ckrupa/HubicApiBundle",
+    "autoload": {
+        "psr-0": {
+            "Ckrupa\\HubicApiBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

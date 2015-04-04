@@ -1,0 +1,6 @@
+parameters:
+    ckrupa_hubic_api.class: Ckrupa\HubicApiBundle\Api\HubicApi
+services:
+    ckrupa_hubic_api:
+        class: %ckrupa_hubic_api.class%
+        arguments: [@security.token_storage, @buzz]
