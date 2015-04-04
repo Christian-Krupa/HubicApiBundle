@@ -41,3 +41,6 @@ The API wrapper is not the "official" hubic.com library for PHP/Symfony2!
 
 oAuth is done by [__HWIOAuthBundle__](https://github.com/hwi/HWIOAuthBundle) so checkout the documentation.
 
+## Sample configuration
+
+here is an [__sample config for hwi 0.3__](https://github.com/Christian-Krupa/HubicApiBundle/blob/master/Resources/doc/sample_hwi_0_3_config.md)
