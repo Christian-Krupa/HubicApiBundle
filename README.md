@@ -4,7 +4,8 @@ HubicApiBundle
 This Bundle provides a simple integration of the hubiC-API (https://api.hubic.com/) for Symfony2.
 The API wrapper is not the "official" hubic.com library for PHP/Symfony2!
 
-usage:
+## Usage
+
     <?php
     $hubic_api = $this->container->get('ckrupa_hubic_api');
     $result = $hubic_api->send('/account/credentials');
