@@ -8,14 +8,12 @@ The API wrapper is not the "official" hubic.com library for PHP/Symfony2!
 
     <?php
     $hubic_api = $this->container->get('ckrupa_hubic_api');
+    if(!$hubic_api->isLoggedIn())
+    {
+        die('invalid oauth token!');
+    }
     $result = $hubic_api->send('/account/credentials');
 
-    ...
-
-    if($hubic_api->isLoggedIn())
-    {
-        die('valid oauth token!');
-    }
 
 ## Installation
 
