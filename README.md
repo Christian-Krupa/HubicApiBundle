@@ -30,6 +30,8 @@ The API wrapper is not the "official" hubic.com library for PHP/Symfony2!
     {
         $bundles = array(
             // ...
+            new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+            new Sensio\Bundle\BuzzBundle\SensioBuzzBundle(),
             new Ckrupa\HubicApiBundle\CkrupaHubicApiBundle(),
             // ...
         );
