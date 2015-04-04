@@ -14,7 +14,7 @@
     "require": {
         "symfony/symfony": ">=2.6",
         "sensio/buzz-bundle": "~1.0",
-        "hwi/oauth-bundle": "0.4.*@dev"
+        "hwi/oauth-bundle": "0.3.*"
     },
     "target-dir": "Ckrupa/HubicApiBundle",
     "autoload": {
